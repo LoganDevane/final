@@ -1,0 +1,127 @@
+/* General styles */
+.bg-home {
+    background-image: url('img/'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Text color on top of the background image */
+    text-align: center; /* Align text content center */
+    padding: 100px 0; /* Adjust padding as needed */
+}
+
+/* Styles for text content within HOME section */
+
+/* Import Montserrat and Nunito Sans fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
+/* Apply Montserrat to headings and Nunito Sans to body text */
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px; /* Adjust as needed */
+    line-height: 1.6; /* Adjust as needed */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    font-family: 'Montserrat', sans-serif; /* Adjust as needed */
+    font-weight: 700; /* Adjust as needed */
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif; /* Adjust as needed */
+    font-weight: 700; /* Adjust as needed */
+}
+
+.blockquote-footer {
+    font-family: 'Nunito Sans', sans-serif; /* Adjust as needed */
+    font-style: italic; /* Example: Adjust as needed */
+}
+#home h2,
+#home p {
+    margin-bottom: 20px;
+}
+
+#home .btn-primary {
+    margin-top: 20px;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+section {
+    padding: 80px 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+/* Styles for the statistics section */
+.stat-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.stat-box {
+    background-color: #3498db; /* Blue background color */
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.stat-box:hover {
+    transform: translateY(-5px);
+}
+
+.stat-icon {
+    margin-bottom: 15px;
+}
+
+.stat-icon img {
+    width: 50px; /* Adjust size of the icon image */
+}
+/* Responsive styles */
+@media (max-width: 768px) {
+    section {
+        padding: 60px 0;
+        /* Styles for the testimonial section */
+.testimonial {
+    background-color: #3498db; /* Blue background color */
+    padding: 30px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blockquote {
+    font-size: 18px; /* Adjust as needed */
+}
+
+.blockquote-footer {
+    margin-top: 10px;
+    font-size: 16px; /* Adjust as needed */
+    font-style: italic;
+}
+    }
+}
